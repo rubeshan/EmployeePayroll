@@ -1,0 +1,15 @@
+Class Clerk
+----------
+----------
+Clerk is a derived class from Employee.
+
+A clerk has one extra instance variable:
+
+- illDays: an integer counting the number of days the person was ill during the last
+calendar year
+
+On clerks the following additional methods work:
+- resetIllDays: sets illDays = 0
+- addIllDays: adds one to illDays
+- getIllDays: returns the value of illDays
+- toString: adds the additional variable to the variables of Employee

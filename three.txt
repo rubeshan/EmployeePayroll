@@ -1,0 +1,13 @@
+Class Director
+-------------
+-------------
+Director is a derived class from Employee. A director has one extra instance variable:
+
+- gratification: a double giving the fraction of the profit this director gets at the end
+of the year
+
+On director the following additional methods work:
+
+- payGratification(int i): prints how much gratification the company pays to
+employee i
+- toString: adds the additional variable to the variables of Employee

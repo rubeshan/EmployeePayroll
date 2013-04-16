@@ -1,0 +1,5 @@
+Class CompanyTest
+----------------
+----------------
+On top of all, there is a class CompanyTest. It contains main. It creates a company with 3
+directors and 17 clerks. Then it performs 100 daySteps with lengthOfYear = 40.

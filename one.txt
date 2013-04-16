@@ -1,0 +1,25 @@
+Class Employee
+--------------
+--------------
+The main class is Employee.
+--------------------------
+An employee has the following instance variables:
+age: an integer
+birthDay: a number between 1 and lengthOfYear
+salary: an integer
+vacationDays: an integer giving the number of available vacation days for the
+remainder of the year
+---------------------------------------
+On employees the following methods work:
+---------------------------------------
+- Employee: sets all parameters
+- increaseSalary: multiplies the salary by (1 + salaryIncrease)
+takeVacationDay: returns true if vacationDays > 0 and decreases vacationDays by
+1, returns false otherwise
+- addVacationDays: replaces vacationDays by vacationDays / 2 + days
+- checkBirthday: checks whether currentDay, which is passed as a parameter equals
+birthDay, and if yes returns true otherwise false. age is increased by one if the
+employee has birthday
+- checkRetirement: returns true if age exceeds 65, otherwise false
+- paySalary(int i): prints that company pays salary to employee i
+- toString: lists all variables on a single line
